@@ -9,55 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP6_JJOO_Entenza_Jolodovsky_Kovadloff
 build_property.RootNamespace = TP6_JJOO_Entenza_Jolodovsky_Kovadloff
-<<<<<<< HEAD
-build_property.ProjectDir = c:\Users\48520440\Downloads\TP6_JJOO_Entenza_Jolodovsky_Kovadloff\
-=======
 build_property.ProjectDir = c:\Users\48385438\TP6_JJOO_Entenza_Jolodovsky_Kovadloff\
->>>>>>> d4601684b9f88a9f467f1af66efb3f73312ec01c
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
-build_property.MSBuildProjectDirectory = c:\Users\48520440\Downloads\TP6_JJOO_Entenza_Jolodovsky_Kovadloff
+build_property.MSBuildProjectDirectory = c:\Users\48385438\TP6_JJOO_Entenza_Jolodovsky_Kovadloff
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Deportes.cshtml]
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Deportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/DetalleDeporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/DetalleDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/DetallePais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/FormDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/48520440/Downloads/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Shared/_Layout.cshtml]
-=======
-build_property.MSBuildProjectDirectory = c:\Users\48385438\TP6_JJOO_Entenza_Jolodovsky_Kovadloff
-build_property._RazorSourceGeneratorDebug = 
 
 [c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Home/Paises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Shared/Error.cshtml]
@@ -77,6 +63,5 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/48385438/TP6_JJOO_Entenza_Jolodovsky_Kovadloff/Views/Shared/_Layout.cshtml]
->>>>>>> d4601684b9f88a9f467f1af66efb3f73312ec01c
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-libsmasp1z
