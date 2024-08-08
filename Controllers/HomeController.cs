@@ -30,7 +30,27 @@ public class HomeController : Controller
     }
     
     public IActionResult Paises(){
-      
+
         return View("Paises");
+    }
+
+    public IActionResult VerDetalleDeporte (int idDeporte){
+        return View("DetalleDeporte");
+    }
+
+    public IActionResult VerDetallePais (int idPais){
+        return View("DetallePais");
+    }
+
+    public IActionResult VerDetalleDeportista (int idDeportista){
+        return View("DetalleDeportista");
+    }
+
+    public IActionResult AgregarDeportista (){
+        return View("FormDeportista");
+    }
+
+        public IActionResult Creditos (){
+        return View("Creditos");
     }
 }
