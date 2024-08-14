@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP6_JJOO_Entenza_Jolodovsky_Kovadloff")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e1d88a6aa75f8ea9041d6638f406215ce02267d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00c6ea4d6803eddf3a9622285d11ed0e4d879fb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP6_JJOO_Entenza_Jolodovsky_Kovadloff")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP6_JJOO_Entenza_Jolodovsky_Kovadloff")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

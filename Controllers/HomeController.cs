@@ -17,9 +17,9 @@ public class HomeController : Controller
     {
         return View();
     }
-     public IActionResult Deportes()
+     public IActionResult Deportes(int idDeporte)
     {
-        /*ViewBag.ListaDeportes=Models.Deporte.'funcion'*/
+        ViewBag.ListaDeportes=BD.ListarDeportes();
         return View();
     }
 
@@ -30,24 +30,35 @@ public class HomeController : Controller
     }
     
     public IActionResult Paises(){
-
+        ViewBag.ListaPaises=BD.ListarPaises();
         return View("Paises");
     }
 
     public IActionResult VerDetalleDeporte (int idDeporte){
+        ViewBag.ListaDeportes=BD.ListarDeportes();
+        ViewBag.ListaDeportistasDeportes=BD.ListarDeportistasDeporte(idDeporte);
         return View("DetalleDeporte");
     }
 
     public IActionResult VerDetallePais (int idPais){
+        ViewBag.ListaPaises=BD.ListarPaises();
+        ViewBag.ListarDeportistasPais=BD.ListarDeportistasPais(idPais);
         return View("DetallePais");
     }
 
     public IActionResult VerDetalleDeportista (int idDeportista){
+        ViewBag.DatosDeportista=BD.VerInfoDeportista(idDeportista);
         return View("DetalleDeportista");
     }
 
     public IActionResult AgregarDeportista (){
-        return View("FormDeportista");
+        ViewBag.ListaPaises=BD.ListarPaises();
+        ViewBag.ListaDeportes=BD.ListarDeportes();
+        return View("AgregarDeportista");
+    }
+    public IActionResult EliminarDeportista (int idCandidato){
+        BD.EliminarDeportista(idCandidato);
+        return View("Index");
     }
 
         public IActionResult Creditos (){
