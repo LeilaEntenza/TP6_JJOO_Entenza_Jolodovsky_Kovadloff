@@ -18,5 +18,47 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 60px;  
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+p{
+  font-size: large;
+  text-align: center;
+}
+
+main .container p{
+  margin: 3%;
+}
+
+main .container{
+  background-color: salmon;
+  color: white;
+  margin-top: 2%;
+}
+
+img{
+  width:70%;
+  border-radius: 10px;
+  margin: 3%;
+}
+
+h2{
+  text-align: center;
+}
+
+iframe{
+  margin: 2%;
+}
+
+.centrar{
+  width:  100%;
+  justify-content: center;
 }
