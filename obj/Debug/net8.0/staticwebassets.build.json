@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rN8g32uRixm/M/S/6fShVU8h4BLgoBkSBVMNY6xWJRI=",
+  "Hash": "i5GW0rwsZTLhP42/47H5+l3Z1YujSFpmMVHPjpWGm5c=",
   "Source": "TP6_JJOO_Entenza_Jolodovsky_Kovadloff",
   "BasePath": "_content/TP6_JJOO_Entenza_Jolodovsky_Kovadloff",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\JOO.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\48385438\\TP6_JJOO_Entenza_Jolodovsky_Kovadloff\\wwwroot\\images\\LosAngeles2038.jpg",
+      "SourceId": "TP6_JJOO_Entenza_Jolodovsky_Kovadloff",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48385438\\TP6_JJOO_Entenza_Jolodovsky_Kovadloff\\wwwroot\\",
+      "BasePath": "_content/TP6_JJOO_Entenza_Jolodovsky_Kovadloff",
+      "RelativePath": "images/LosAngeles2038.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\LosAngeles2038.jpg"
     },
     {
       "Identity": "C:\\Users\\48385438\\TP6_JJOO_Entenza_Jolodovsky_Kovadloff\\wwwroot\\js\\site.js",
