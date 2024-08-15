@@ -65,4 +65,7 @@ public class HomeController : Controller
         public IActionResult Creditos (){
         return View("Creditos");
     }
+        public IActionResult Historia (){
+            return View("Historia");
+        }
 }
