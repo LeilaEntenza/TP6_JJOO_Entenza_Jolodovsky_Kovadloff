@@ -5,5 +5,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 }
 
-<h1>Deportes cargados</h1>
-<p>Los deportes disponibles son: @ViewBag.ListaDeportes</p>
+<h1>Deportes</h1>
+<p>Los deportes disponibles son:</p>
+<div class="ContenedorTarjetas">
+        @{
+            foreach(Deporte deportitis in ViewBag.ListaDeportes){
+        <div class="Tarjeta">
+            <h2>@deportitis.Nombre</h2>
+            <img src="@deportitis.Foto">
+        </div>
+            }
+}
+    </div>

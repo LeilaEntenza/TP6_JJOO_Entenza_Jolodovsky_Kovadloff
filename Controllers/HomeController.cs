@@ -17,6 +17,7 @@ public class HomeController : Controller
     {
         return View();
     }
+    
      public IActionResult Deportes(int idDeporte)
     {
         ViewBag.ListaDeportes=BD.ListarDeportes();

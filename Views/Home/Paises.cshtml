@@ -5,5 +5,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 }
 
-<h1>Países cargados</h1>
-<p>Los países cargados son: @ViewBag.ListaPaises</p>
+<h1>Países</h1>
+<p>Los países participantes son:</p>
+<div class="ContenedorTarjetas">
+        @{
+            foreach(Pais paisisisi in ViewBag.ListaPaises){
+        <div class="Tarjeta">
+            <h2>@paisisisi.Nombre</h2>
+            <img src="@paisisisi.Bandera" alt="Bandera de @paisisisi.Nombre">
+            <p> Fundando en: @paisisisi.FechaFundacion.ToShortDateString()</p>
+        </div>
+            }
+}
+    </div>
