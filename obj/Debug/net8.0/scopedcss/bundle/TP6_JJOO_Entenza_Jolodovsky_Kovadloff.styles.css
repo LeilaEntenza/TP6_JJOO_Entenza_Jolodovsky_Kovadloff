@@ -21,3 +21,10 @@ header nav ul a li:hover[b-libsmasp1z]{
 header nav ul a[b-libsmasp1z]{
   text-decoration:none;
 }
+
+header nav ul[b-libsmasp1z]{
+  align-items: center;
+}
+.Logo[b-libsmasp1z] {
+  width: 40%;
+}
