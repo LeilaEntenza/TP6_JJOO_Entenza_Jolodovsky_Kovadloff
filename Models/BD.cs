@@ -5,9 +5,9 @@ public static class BD{
     private static string _connectionString = @"Server = A-PHZ2-CIDI-13;DataBase = JJOO;Trusted_Connection=True;";
 
     public static void AgregarDeportista(Deportista dep){
-        string sql= "INSERT INTO Deportistas (IdDeportista, Apellido, Nombre, Foto, IdPais, IdDeporte, FechaNacimiento) VALUES (@iIdDeportista, @aApellido, @nNombre, @fFoto, @iIdPais, @iIdDeporte, @fFechaNacimiento )";
+        string sql= "INSERT INTO Deportistas (Apellido, Nombre, Foto, IdPais, IdDeporte, FechaNacimiento) VALUES (@aApellido, @nNombre, @fFoto, @iIdPais, @iIdDeporte, @fFechaNacimiento )";
         using(SqlConnection db= new SqlConnection(_connectionString)){
-                db.Execute(sql, new {iIdDeportista=dep.IdDeportista, aApellido=dep.Apellido, nNombre = dep.Nombre, fFoto = dep.Foto, fFechaNacimiento = dep.FechaNacimiento, iIdPais=dep.IdPais, iIdDeporte=dep.IdDeporte });
+                db.Execute(sql, new {aApellido=dep.Apellido, nNombre = dep.Nombre, fFoto = dep.Foto, fFechaNacimiento = dep.FechaNacimiento, iIdPais=dep.IdPais, iIdDeporte=dep.IdDeporte });
         }
     }
     public static void EliminarDeportista(int idDeportista){

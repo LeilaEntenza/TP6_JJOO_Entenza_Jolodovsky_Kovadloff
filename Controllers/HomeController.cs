@@ -42,7 +42,7 @@ public class HomeController : Controller
     }
 
     public IActionResult VerDetallePais (int idPais){
-        ViewBag.ListaPaises=BD.ListarPaises();
+        ViewBag.ListaPaises=BD.VerInfoPais(idPais);
         ViewBag.ListarDeportistasPais=BD.ListarDeportistasPais(idPais);
         return View("DetallePais");
     }
@@ -50,6 +50,19 @@ public class HomeController : Controller
     public IActionResult VerDetalleDeportista (int idDeportista){
         ViewBag.DatosDeportista=BD.VerInfoDeportista(idDeportista);
         return View("DetalleDeportista");
+    }
+
+    [HttpPost] 
+    public IActionResult GuardarDeportista(string FotoDeportista, string Apellido, string Nombre, DateTime FechaNacimiento, int IdDeporte, int IdPais){
+        Deportista dep = new Deportista();
+        dep.Apellido=Apellido;
+        dep.Nombre=Nombre;
+        dep.FechaNacimiento=FechaNacimiento;
+        dep.Foto=FotoDeportista;
+        dep.IdDeporte=IdDeporte;
+        dep.IdPais=IdPais;
+        BD.AgregarDeportista(dep);
+        return View("Index");
     }
 
     public IActionResult AgregarDeportista (){

@@ -5,20 +5,30 @@
 <h1>Cargar deportista</h1>
 <p>Aquí podrá cargar todos los deportistas que compitan en los Juegos Olímpicos.</p>
 
-    <form action='@Url.Action("AgregarDeportista", "Home")'>
+    <form action='@Url.Action("GuardarDeportista", "Home")' method="post">
             <div class="centrar">
             <p>Link a la imagen del deportista:</p>
-            <input autocomplete="off" type="number" name="Foto" placeholder="" required><br>
+            <input  autocomplete="off" type="text" name="FotoDeportista" placeholder="" required><br>
             <p>Apellido:</p>
-            <input autocomplete="off" type="texto" name="Apellido" placeholder="" required><br>
+            <input autocomplete="off" type="text" name="Apellido" placeholder="" required><br>
             <p>Nombre:</p>
-            <input autocomplete="off" type="texto" name="Nombre" placeholder="" required><br>
+            <input autocomplete="off" type="text" name="Nombre" placeholder="" required><br>
             <p>Fecha de nacimiento:</p>
             <input autocomplete="off" type="date" name="FechaNacimiento" placeholder="" required><br>
-            <p>Número de país:</p>
-            <input autocomplete="off" type="number" name="IdPais" placeholder="" required><br>
-            <p>Número de deporte:</p>
-            <input autocomplete="off" type="number" name="IdDeporte" placeholder="" required><br>
+            ¿Qué deporte practica?<select name="IdDeporte">
+            @{
+                foreach(Deporte dep in ViewBag.ListaDeportes){
+                    <option value="@dep.IdDeporte">@dep.Nombre</option>
+                }
+            }
+            </select><br>
+            ¿De qué país es?<select name="IdPais">
+            @{
+                foreach(Pais paisito in ViewBag.ListaPaises){
+                    <option value="@paisito.IdPais">@paisito.Nombre</option>
+                }
+            }
+            </select><br>
             <div>
                 <input class="btn btn-primary" type="submit" name="Enviar">
                 <input class="btn btn-secondary" type="reset" name="Resetear">
