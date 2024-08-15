@@ -20,7 +20,7 @@ public class HomeController : Controller
      public IActionResult Deportes(int idDeporte)
     {
         ViewBag.ListaDeportes=BD.ListarDeportes();
-        return View();
+        return View("Deportes");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
