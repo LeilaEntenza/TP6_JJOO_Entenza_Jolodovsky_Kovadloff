@@ -18,9 +18,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;  
+  margin-bottom: 60px; 
+  margin-top: 130px;  
   font-family: "Inter", sans-serif;
-  background-color: #fff;
+  background-color: #D4B16A;
 }
 
 h1{
@@ -39,7 +40,7 @@ main .container p{
 }
 
 main .container{
-  background-color: salmon;
+  background-color: #5f6e85;
   color: white;
   margin-top: 2%;
 }
@@ -123,4 +124,21 @@ iframe{
 .Tarjeta:hover {
   transform: translateY(-5px); 
   box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+}
+
+.Banner{
+  float: right;
+  width: 30%;
+  margin: 2%;
+  border-left: 2px solid rgb(105, 105, 105);
+}
+
+.Banner img{
+  margin-left: 30%;
+  width: 40%;
+}
+
+.IndexIMG{
+  margin-left: 0%;
+  width: 100%;
 }

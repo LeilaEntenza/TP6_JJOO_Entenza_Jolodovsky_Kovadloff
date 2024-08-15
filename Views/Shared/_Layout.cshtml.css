@@ -1,6 +1,9 @@
 ﻿header{
-  background-color: #bd4945;
+  background-color: #526075;
   padding: 0.5%;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 header nav ul{
   display: flex;
@@ -26,4 +29,8 @@ header nav ul{
 }
 .Logo {
   width: 40%;
+}
+
+li:hover{
+  color: #b4b4b4;
 }
