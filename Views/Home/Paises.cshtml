@@ -12,7 +12,7 @@
             foreach(Pais paisisisi in ViewBag.ListaPaises){
         <div class="Tarjeta">
             <h2>@paisisisi.Nombre</h2>
-            <a href='@Url.Action("VerDetallePais","Home", new {IDPais = paisisisi.IdPais})'>
+            <a href='@Url.Action("VerDetallePais","Home", new {IdPais = paisisisi.IdPais})'>
             <img src="@paisisisi.Bandera" alt="Bandera de @paisisisi.Nombre">
             </a>
             <p> Fundando en: @paisisisi.FechaFundacion.ToShortDateString()</p>

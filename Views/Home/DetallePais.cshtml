@@ -1,3 +1,24 @@
 @{
     ViewData["Title"]="DetallePais";
 }
+
+<div class= "text-detallepais">
+<h1>@ViewBag.Pais.Nombre</h1>
+<img src="@ViewBag.Pais.Bandera">
+<p>@ViewBag.Pais.Nombre brilla en el escenario olímpico con su espíritu competitivo y acogedor. 
+Con cada evento, muestra no solo el talento y la dedicación de sus atletas, sino también su capacidad para celebrar y unir a las personas. 
+Con instalaciones de primer nivel y una cálida hospitalidad, @ViewBag.Pais.Nombre se destaca como un anfitrión excepcional en los Juegos Olímpicos, 
+ofreciendo una experiencia inolvidable tanto para los participantes como para los espectadores.</p>
+</div>
+<p>Los jugadores de este país son:</p>
+<div class="ContenedorTarjetas">
+        @foreach(Deportista dep in ViewBag.ListarDeportistasPais){
+            <a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeportista = dep.IdDeportista})'>         
+            <div class="Tarjeta">
+                <h2>@dep.Nombre @dep.Apellido</h2>
+                <h3>@dep.FechaNacimiento.ToShortDateString()</h3>
+                <img src="@dep.Foto">
+            </div>
+            </a>
+        }
+    </div>

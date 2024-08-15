@@ -44,6 +44,12 @@ main .container{
   margin-top: 2%;
 }
 
+.text-detallepais {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+}
 img{
   width:70%;
   border-radius: 10px;
@@ -83,6 +89,16 @@ iframe{
   transition: transform 0.3s, box-shadow 0.3s;
   flex: 1; /* Permite que las tarjetas se ajusten al espacio disponible */
   min-width: 250px; /* Ancho mínimo para que no se vuelvan demasiado pequeñas */
+}
+.Tarjeta h2, h3{
+  color:black;
+  
+}
+
+.Tarjeta a {  
+  text-decoration: none;
+  list-style: none  ;
+  color: inherit;
 }
 
 .Tarjeta img {
