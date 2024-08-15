@@ -42,7 +42,7 @@ public class HomeController : Controller
     }
 
     public IActionResult VerDetallePais (int idPais){
-        ViewBag.ListaPaises=BD.VerInfoPais(idPais);
+        ViewBag.Pais=BD.VerInfoPais(idPais);
         ViewBag.ListarDeportistasPais=BD.ListarDeportistasPais(idPais);
         return View("DetallePais");
     }
