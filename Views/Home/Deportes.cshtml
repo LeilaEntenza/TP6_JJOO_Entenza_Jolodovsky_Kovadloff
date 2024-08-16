@@ -12,7 +12,9 @@
             foreach(Deporte deportitis in ViewBag.ListaDeportes){
         <div class="Tarjeta">
             <h2>@deportitis.Nombre</h2>
+            <a href='@Url.Action("VerDetalleDeporte","Home", new {IdDeporte = deportitis.IdDeporte})'>
             <img src="@deportitis.Foto">
+            </a>
         </div>
             }
 }

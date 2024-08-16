@@ -2,7 +2,7 @@ namespace TP6_JJOO_Entenza_Jolodovsky_Kovadloff.Models;
 using System.Data.SqlClient;
 using Dapper;
 public static class BD{
-    private static string _connectionString = @"Server = A-PHZ2-AMI-07;DataBase = JJOO;Trusted_Connection=True;";
+    private static string _connectionString = @"Server = A-PHZ2-CIDI-35;DataBase = JJOO;Trusted_Connection=True;";
 
     public static void AgregarDeportista(Deportista dep){
         string sql= "INSERT INTO Deportistas (Apellido, Nombre, Foto, IdPais, IdDeporte, FechaNacimiento) VALUES (@aApellido, @nNombre, @fFoto, @iIdPais, @iIdDeporte, @fFechaNacimiento )";

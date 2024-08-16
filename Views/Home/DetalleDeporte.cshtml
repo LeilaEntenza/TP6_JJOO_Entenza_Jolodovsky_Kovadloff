@@ -1,3 +1,26 @@
 @{
     ViewData["Title"]="DetalleDeporte";
 }
+<div class= "text-detallepais">
+<h1>@ViewBag.Deporte.Nombre</h1>
+<img src="@ViewBag.Deporte.Foto">
+<p>Lo que hace que el @ViewBag.Deporte.Nombre.ToLower() sea verdaderamente especial es su capacidad para unir a las personas. 
+A través de los años, ha demostrado ser un puente entre culturas y generaciones, creando un sentido de comunidad 
+y camaradería entre aquellos que comparten la misma pasión. En cada competición, ya sea a nivel local o internacional, 
+se observa una celebración de la diversidad y el esfuerzo colectivo, donde la admiración y 
+el respeto mutuo trascienden las fronteras.
+
+</p>
+</div>
+<p>Los jugadores de este país son:</p>
+<div class="ContenedorTarjetas">
+        @foreach(Deportista dep in ViewBag.ListaDeportistasDeportes){
+            <a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeportista = dep.IdDeportista})'>         
+            <div class="Tarjeta">
+                <h2>@dep.Nombre @dep.Apellido</h2>
+                <h3>@dep.FechaNacimiento.ToShortDateString()</h3>
+                <img src="@dep.Foto">
+            </div>
+            </a>
+        }
+    </div>

@@ -1,3 +1,13 @@
 @{
     ViewData["Title"]="DetalleDeportista";
 }
+<div class= "text-detallepais">
+<h1>@ViewBag.DatosDeportista.Nombre @ViewBag.DatosDeportista.Apellido</h1>
+<img src="@ViewBag.DatosDeportista.Foto">
+<p>@ViewBag.DatosDeportista.FechaNacimiento</p>
+<button>
+<a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeporte = @ViewBag.DatosDeportista.IdDeporte})'>
+<p>Juega al: @ViewBag.SuDeporte.Nombre</p>
+</a>
+</button>
+</div>
