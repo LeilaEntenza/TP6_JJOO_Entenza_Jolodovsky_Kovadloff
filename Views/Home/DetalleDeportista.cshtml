@@ -4,10 +4,13 @@
 <div class= "text-detallepais">
 <h1>@ViewBag.DatosDeportista.Nombre @ViewBag.DatosDeportista.Apellido</h1>
 <img src="@ViewBag.DatosDeportista.Foto">
-<p>@ViewBag.DatosDeportista.FechaNacimiento</p>
-<button>
-<a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeporte = @ViewBag.DatosDeportista.IdDeporte})'>
-<p>Juega al: @ViewBag.SuDeporte.Nombre</p>
-</a>
-</button>
+<p>@ViewBag.DatosDeportista.FechaNacimiento.ToShortDateString()</p>
+<div class="detalles-deportista">
+    <a href='@Url.Action("VerDetallePais","Home", new {IdPais = @ViewBag.DatosDeportista.IdPais})' class="boton">
+        <p class="deportista-detalles">Ver su País</p>
+    </a>
+    <a href='@Url.Action("VerDetalleDeporte","Home", new {IdDeporte = @ViewBag.DatosDeportista.IdDeporte})' class="boton">
+        <p class="deportista-detalles">Ver su Deporte</p>
+    </a>
 </div>
+

@@ -36,6 +36,7 @@ public class HomeController : Controller
     }
 
     public IActionResult VerDetalleDeporte (int IdDeporte){
+        ViewBag.ElDeporte=IdDeporte;
         ViewBag.Deporte=BD.VerInfoDeporte(IdDeporte);
         ViewBag.ListaDeportistasDeportes=BD.ListarDeportistasDeporte(IdDeporte);
         return View("DetalleDeporte");
@@ -49,11 +50,6 @@ public class HomeController : Controller
 
     public IActionResult VerDetalleDeportista (int idDeportista){
         ViewBag.DatosDeportista=BD.VerInfoDeportista(idDeportista);
-        foreach(Deporte dep in ViewBag.ListaDeportes){
-            if(ViewBag.DatosDeportista.IdDeporte==dep.IdDeporte){
-                ViewBag.SuDeporte=dep.Nombre;
-            }
-        }
         return View("DetalleDeportista");
     }
 
