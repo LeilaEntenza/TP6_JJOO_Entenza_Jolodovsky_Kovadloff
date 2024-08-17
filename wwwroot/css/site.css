@@ -88,8 +88,8 @@ iframe{
   text-align: center; 
   max-width: 300px;
   transition: transform 0.3s, box-shadow 0.3s;
-  flex: 1; /* Permite que las tarjetas se ajusten al espacio disponible */
-  min-width: 250px; /* Ancho mínimo para que no se vuelvan demasiado pequeñas */
+  flex: 1; 
+  min-width: 250px; 
 }
 .Tarjeta h2, h3{
   color:black;
@@ -141,4 +141,49 @@ iframe{
 .IndexIMG{
   margin-left: 0%;
   width: 100%;
+}
+
+.detalles-deportista .boton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.detalles-deportista .boton:hover {
+  background-color: #0056b3;
+}
+
+.detalles-deportista .boton p {
+  margin: 0;
+  padding: 0;
+}
+
+.detalles-deportista .boton {
+  all: unset;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.detalles-deportista .boton:hover {
+  background-color: #0056b3;
+}
+
+.detalles-deportista .boton p {
+  margin: 0;
+  padding: 0;
 }
