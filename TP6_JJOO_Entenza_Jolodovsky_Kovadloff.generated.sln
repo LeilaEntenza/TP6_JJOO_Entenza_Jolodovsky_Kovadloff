@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP6_JJOO_Entenza_Jolodovsky_Kovadloff", "TP6_JJOO_Entenza_Jolodovsky_Kovadloff.csproj", "{DE7E6BA8-D614-41DE-8975-788F0F47846E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP6_JJOO_Entenza_Jolodovsky_Kovadloff", "TP6_JJOO_Entenza_Jolodovsky_Kovadloff.csproj", "{816A2AAC-AFDF-47F5-B0A2-B74426CBDFBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE7E6BA8-D614-41DE-8975-788F0F47846E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE7E6BA8-D614-41DE-8975-788F0F47846E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE7E6BA8-D614-41DE-8975-788F0F47846E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE7E6BA8-D614-41DE-8975-788F0F47846E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816A2AAC-AFDF-47F5-B0A2-B74426CBDFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816A2AAC-AFDF-47F5-B0A2-B74426CBDFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816A2AAC-AFDF-47F5-B0A2-B74426CBDFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816A2AAC-AFDF-47F5-B0A2-B74426CBDFBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
