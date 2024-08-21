@@ -15,7 +15,7 @@ el respeto mutuo trascienden las fronteras.
 <p>Los jugadores de este país son:</p>
 <div class="ContenedorTarjetas">
         @foreach(Deportista dep in ViewBag.ListaDeportistasDeportes){
-            <a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeportista = dep.IdDeportista})'>         
+            <a href='@Url.Action("VerDetalleDeportista","Home", new {IdDeportista = dep.IdDeportista})' class="a-deporte-pais">         
             <div class="Tarjeta">
                 <h2>@dep.Nombre @dep.Apellido</h2>
                 <h3>@dep.FechaNacimiento.ToShortDateString()</h3>

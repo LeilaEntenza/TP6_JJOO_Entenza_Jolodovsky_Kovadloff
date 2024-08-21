@@ -21,13 +21,14 @@ body {
   margin-bottom: 60px; 
   margin-top: 130px;  
   font-family: "Inter", sans-serif;
-  background-color: #D4B16A;
+  background-color: #eed8ab;
 }
 
 h1{
   text-align: center;
-  margin-top: 2%;
+  margin-top: 11%;
   margin-bottom: 2%;
+  
 }
 
 p{
@@ -39,10 +40,17 @@ main .container p{
   margin: 3%;
 }
 
+.titulo-historia{
+  margin-top:11%;
+}
 main .container{
   background-color: #5f6e85;
   color: white;
   margin-top: 2%;
+}
+
+.a-deporte-pais{
+  text-decoration: none !important;
 }
 
 .text-detallepais {
